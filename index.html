@@ -29,6 +29,7 @@
             
         }
         
+        
     </style>
 
 <header>
@@ -92,7 +93,7 @@
         
             <div class="col s6 m3 white fullHeightRight">
                 <div 
-                    class="columna2"><h6>Datos secundarios</h3>
+                    class="columna2"><h6>Navegacion</h3>
                     <div class="responsive-button">
                         <div class="section">
                             <a class="waves-effect waves-light btn-small">Noticias importantes</a><br>
@@ -100,6 +101,20 @@
                         <div class="section">
                             <a class="waves-effect waves-light btn-small">Recomendaciones</a>
                         </div>
+                        <div class="section">
+                            <a class="waves-effect waves-light dropdown-trigger btn" href='#' data-target='lista'>Otros perfiles</a>
+                        </div>
+                        <ul id='lista' class='dropdown-content'>
+                            <li><a href="https://eliasmachuanin.github.io"><i class="material-icons">list_alt</i>Elias</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://julianraso.github.io/"><i class="material-icons">list_alt</i>Julian</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://renzoara.github.io/"><i class="material-icons">list_alt</i>Renzo</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#!"><i class="material-icons">list_alt</i>Junior</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#!"><i class="material-icons">list_alt</i>Julio</a></li>
+                          </ul>
                     </div>
                 </div>
             </div>
@@ -115,6 +130,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         M.AutoInit();
+    
       });</script>
 </body>
 
